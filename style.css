@@ -1,0 +1,30 @@
+/*CSS*/
+
+/*Aqui eu declarei quem vai receber essas formatações*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: coral;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5; /*Espaçamento*/
+}
+
+div {
+    margin: 20px 10px 5px 0px ;
+    padding: 10px;
+    border: 10px solid #000;
+}
+
+/* Podemos atribuir um CSS a IDs, Classes e TAGS*/
