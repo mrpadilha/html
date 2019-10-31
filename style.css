@@ -1,10 +1,25 @@
 /*CSS*/
 
 /*Aqui eu declarei quem vai receber essas formatações*/
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    background-color: coral;
+
+/*Tags*/
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: blue
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5; /*Espaçamento*/
+}
+
+body{
+    background-color: #000000;
+}
+
+header{
+    background-color: crimson;
+    height: 100px;
 }
 
 *{
@@ -12,19 +27,35 @@ body {
     padding: 0;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: oblique;
-    color: blue;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.5; /*Espaçamento*/
+#left_div{
+    background-color: cyan;
+    min-height: 200px;
+    width:60%;
+    /*Float forçara as dives ficarem um ao lado da outra*/
+    float:left;
 }
 
-div {
-    margin: 20px 10px 5px 0px ;
-    padding: 10px;
-    border: 10px solid #000;
+/*Ids*/
+
+#right_div{
+    background-color:green;
+    min-height: 200px;
+    width:40%;
+    /*Float forçara as dives ficarem um ao lado da outra*/
+    float:right;
 }
 
+footer{
+    /*Foi utilizado clear aqui porque usamos float acima*/
+    clear: both;
+    background-color: greenyellow;
+    height: 30px;
+}
+
+/*Classes*/
+.container{
+    width: 960px;
+    /*0 é para altura e alto para largura, porém só auto seria suficiente para largura*/
+    margin:0 auto;
+}
 /* Podemos atribuir um CSS a IDs, Classes e TAGS*/
